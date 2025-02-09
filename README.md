@@ -1,18 +1,18 @@
-Data Warehouse for Sparkify
+#Data Warehouse for Sparkify
 
-Project Overview
+##Project Overview
 
 This project builds an ETL pipeline for a music streaming startup, Sparkify, using Amazon Redshift. The pipeline extracts song and log data from S3, stages them in Redshift, and transforms them into a set of dimensional tables optimized for analytical queries.
 
-Schema Design
+##Schema Design
 
 The schema follows a star schema with the following tables:
 
-Fact Table
+##Fact Table
 
 songplays: Stores records of song play events.
 
-Dimension Tables
+##Dimension Tables
 
 users: Stores user information.
 
@@ -22,7 +22,7 @@ artists: Stores artist details.
 
 time: Stores timestamp details.
 
-Files
+##Files
 
 create_tables.py: Creates tables in Redshift.
 
