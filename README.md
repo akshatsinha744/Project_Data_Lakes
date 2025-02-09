@@ -41,7 +41,3 @@ Run python create_tables.py to set up the database schema.
 Run python etl.py to load and transform data.
 
 Use Redshift's Query Editor to validate data.
-
-Example Queries
-
-Find the most played songs:
